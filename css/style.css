@@ -4,4 +4,44 @@
     box-sizing: border-box;
 }
 
+/* HEADER  */
+header{
+    height: 75px;
+    background-color: blue;
+}
 
+.container-h{
+   
+    
+}
+
+/* COMMON  */
+.border{
+    border: 2px solid black;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+}
+
+.paddingtb-10{
+    padding: 10px 0;
+}
+
+/* COMMON col */
+.col-50{
+    width: 50%;
+}
+
+/* COMMON height */
+.height-50{
+    height: 50px;
+
+}
+
+/* COMMON colors */
+.bg-red{
+    background-color: red;
+}
