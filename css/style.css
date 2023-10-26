@@ -9,7 +9,16 @@ header{
     height: 75px;
 }
 
+/* FOOTER  */
+footer{
+    background-color: black;
+}
+
 /* CONTAINERS  */
+.container-h{
+    width: 100%;
+
+}
 .container-jumbo{
     max-width: 1000px;
     margin: 0 auto;
@@ -17,6 +26,7 @@ header{
 
 .container{
     max-width: 800px;
+    margin: 0 auto;
 }
 
 /* COMMON  */
@@ -38,6 +48,14 @@ header{
     padding-top: 50px;
 }
 
+.gap-10{
+    gap: 10px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
 /* COMMON column */
 .col-100{
     width: 100%;
@@ -52,11 +70,19 @@ header{
 }
 
 .col-33{
-    width: calc(100% / 3 );
+    width: calc(100% / 3);
+}
+
+.col-33-gap{
+    width: calc(100% / 3 - 10px);
 }
 
 .col-30{
     width: 30%;
+}
+
+.col-20{
+    width: calc(100% / 5);
 }
 
 /* COMMON height */
@@ -76,4 +102,17 @@ header{
 
 .bg-light-blue{
     background-color: lightblue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.white{
+    color: white;
+}
+
+.border-white{
+    border: 2px solid white;
+    color: white;
 }
