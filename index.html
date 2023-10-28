@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content padding-20="width=device-width, initial-scale=1.0">
     <title>dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -23,11 +24,11 @@
                 </div>
                 <div class="col-50">
                     <div class="content padding-20">
-                        <ul class="flex justify-end">
+                        <ul class="flex justify-end flex-center">
                             <li>Supporto</li>
                             <li>Contatta l'ufficio vendite </li>
                             <li>Accedi</li>
-                            <li><button class="no-margin">Inizia</button></li>
+                            <li><button class="no-margin button-h">Inizia</button></li>
                         </ul>
 
                     </div>
@@ -36,7 +37,7 @@
         </div>
     </header>
     <main>
-        <!-- JUMBO 1000px  -->
+        <!-- JUMBO 1200px  -->
         <div class="bg-light-blue">
             <div class="container-jumbo">
                 <div class="row">
@@ -54,36 +55,51 @@
                             </p>
                             <button>Inizia la tua prova gratuita</button>
                             <p>Annulla in qialsiasi momento</p>
-                            <div> &#129047; </div>
+                            <div>
+                                
+                                <i id="down-arrow" class="fa-solid fa-arrow-down fa-2xl"></i> 
+                            </div>
                         </div>
 
                     </div>
-                    <div class="col-70">
+                    <div class="col-70-jumbo">
                         <div class="content padding-20">
-                            <img src="img/jumbo.png" alt="">
+                            <img src="img/jumbo.png" class="img-jumbo">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- SECTION 900PX  -->
+        <!-- SECTION 1000PX  -->
         <div class="container">
             <!-- PIANO BUSINESS  -->
-            <div class="row gap-10">
+            <div class="row gap-10 margin-50">
                 <div class="margin-50 col-100">
-                    <div class="content padding-20">
+                    <div class="content">
+
                         <h2>Trova il piano business che fa per te</h2>
-                        <div class="checkbox">
-                            <span> <input type="checkbox">Fatturazione mensile</span>
-                            <span> <input type="checkbox">Fatturazione annuale</span>
-                        </div>
+                        
+                        <label class="container-button">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span> 
+                            Fatturazione mensile 
+                        </label>
+    
+                        <label class="container-button">
+                              <input type="radio" name="radio">
+                              <span class="checkmark"></span>
+                              Fatturazione annuale
+                        </label>
                     </div>
                 </div>
 
                 <div class="col-33-gap border">
                     <div class="content text-align-center">
-                        <p>Singolo</p>
+                        <p>
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </p>
                     </div>
                     <hr>
                     <div class="content padding-20">
@@ -109,7 +125,10 @@
                
                 <div class="col-33-gap border">
                     <div class="content text-align-center">
-                        <p>Singolo</p>
+                        <p>
+                            <i class="fa-solid fa-users"></i>
+                            Singolo
+                        </p>
                     </div>
                     <hr>
                     <div class="content padding-20">
@@ -138,7 +157,10 @@
 
                 <div class="col-33-gap border">
                     <div class="content text-align-center">
-                        <p>Azienda</p>
+                        <p>
+                            <i class="fa-solid fa-building"></i>
+                            Azienda
+                        </p>
                     </div>
                     <hr>
                     <div class="content padding-20">
@@ -163,7 +185,10 @@
                 </div>
 
                 <div class="col-100 border margin-50">
-                    <div class="content padding-20 text-align-center">Team</div>
+                    <div class="content padding-20 text-align-center">
+                        <i class="fa-solid fa-building"></i>
+                         Team
+                    </div>
                     <hr class="no-margin">
                     <div class="content padding-20">
 
@@ -302,7 +327,7 @@
                 <div class="col-33 bg-gainsboro">
                     <div class="content padding-20">
                         <img src="img/designit.svg" id="designit">
-                        <hr>
+                        <hr class="black">
                         <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper". </p>
                         <p>Morten Thomsen, Global IT Lead</p>
                     </div>
@@ -334,7 +359,7 @@
                 <div class="row">
                     <div class="margin-50 col-60">
                         <div class="content padding-20">
-                            <h2>Porta Dropbox Business nella tua azienta</h2>
+                            <h2 class="dark-red">Porta Dropbox Business nella tua azienta</h2>
                         </div>
                     </div>
                     <div class="margin-50 col-40">
@@ -356,11 +381,17 @@
                     <h2>Domande frequenti</h2>
                     <hr>
                     <ul>
-                        <li>Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced</li>
+                        <li>
+                            Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
                         <hr>
-                        <li>Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced</li>
+                        <li>
+                            Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
                         <hr>
-                        <li>Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced</li>
+                        <li>
+                            Qual'è la differenza tra Dropbox Business Standard e DropboxBusiness Advanced <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
                         <hr>
                     </ul>
                    </div>
@@ -387,7 +418,7 @@
                 </div>
                 <div class="margin-50 col-20">
                     <div class="content padding-20">
-                        <h3>Dropbox</h3>
+                        <h3>Prodotti</h3>
                         <ul>
                             <li>Applicazione desktop</li>
                             <li>Perchè Dropbox</li>
@@ -399,7 +430,7 @@
                 </div>
                 <div class="margin-50 col-20">
                     <div class="content padding-20">
-                        <h3>Dropbox</h3>
+                        <h3>Azienda</h3>
                         <ul>
                             <li>Applicazione desktop</li>
                             <li>Perchè Dropbox</li>
@@ -411,7 +442,7 @@
                 </div>
                 <div class="margin-50 col-20">
                     <div class="content padding-20">
-                        <h3>Dropbox</h3>
+                        <h3>Supporto</h3>
                         <ul>
                             <li>Applicazione desktop</li>
                             <li>Perchè Dropbox</li>
@@ -423,7 +454,7 @@
                 </div>
                 <div class="margin-50 col-20">
                     <div class="content padding-20">
-                        <h3>Dropbox</h3>
+                        <h3>Community</h3>
                         <ul>
                             <li>Applicazione desktop</li>
                             <li>Perchè Dropbox</li>
@@ -438,7 +469,12 @@
                 <div class="col-100">
                     <hr class="width-15">
                     <div class="content padding-20">
-                        <p>Italiano</p>
+                        
+                        <p> 
+                            <i class="fa-solid fa-earth-americas"></i>
+                            Italiano
+                            <i class="fa-solid fa-caret-up"></i>
+                        </p>
                     </div>
                 </div>
                 
